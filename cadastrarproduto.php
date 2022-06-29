@@ -38,9 +38,8 @@ include_once("conecta_mysql.inc");
           <pre class="cadastro" class="center">
 Insira as informações:
 
-        Id:                <input type="text" size="40" maxlength="100" name="idmarca">
-
-         Nome:             <input type="text" size="40" maxlength="100" name="descricao">
+        Id:               <input type="text" size="30" maxlength="100" name="idmarca">
+        Nome:             <input type="text" size="30" maxlength="100" name="descricao">
          
 <input type="submit" value="Gravar Dados" name="enviar">
                         </div>
@@ -61,8 +60,8 @@ Insira as informações:
 <pre class="cadastro" class ="center">
 Insira as informações:
 
-    Id:             <input type="text" size="40" maxlength="100" name="idcategoria">
-         Nome:             <input type="text" size="40" maxlength="100" name="descricao">
+    Id:             <input type="text" size="30" maxlength="100" name="idcategoria">
+    Nome:           <input type="text" size="30" maxlength="100" name="descricao">
 
 <input type="submit" value="Gravar Dados" name="enviar">
                         </div>
